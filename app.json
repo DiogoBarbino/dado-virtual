@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Dado Virtual",
+    "slug": "dado-virtual",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "android"
+    ],
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "br.com.korsoftwares.dadovirtual"
+    },
+    "android": {
+      "package": "br.com.korsoftwares.dadovirtual",
+      "versionCode": 4,
+      "permissions": []
+    },
+    "androidStatusBar":{
+      "backgroundColor": "#6AC0FF"
+    }
+
+  }
+}
